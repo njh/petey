@@ -56,9 +56,10 @@ The Oink sound effect came from:
 http://soundbible.com/1221-Pig-Oink.html
 
 License: Creative Commons Attribution 3.0
+
 Recorded by: Mike Koenig
 
-It was created using:
+The alaw file was created using:
 
     sox oink.wav -e a-law -c 1 -r 8000 -t raw oink.alaw
 
