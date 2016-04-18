@@ -1,6 +1,7 @@
 Petey: Push To Talk
 ===================
 
+Requirements: Ruby 2.0 and PulseAudio
 
 
 Installing
@@ -8,13 +9,24 @@ Installing
 
 On Mac OS X:
 
-    brew install pulseaudio
+    brew install rbenv ruby-build pulseaudio
+    rbenv install 2.1.2
     bundle install
 
 On Debian Linux:
 
     apt-get install pulseaudio pulseaudio-utils
     bundle install
+
+
+Running
+-------
+
+    $ ruby petey.rb
+    Welcome to Petey!
+    space: Record Sound
+        o: Send Oink
+        q: Quit
 
 
 Setting up PulseAudio on Mac OS X
