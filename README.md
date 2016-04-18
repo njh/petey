@@ -15,7 +15,7 @@ On Mac OS X:
 
 On Debian Linux:
 
-    apt-get install pulseaudio pulseaudio-utils
+    apt-get install ruby bundler pulseaudio pulseaudio-utils
     bundle install
 
 
