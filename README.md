@@ -3,6 +3,13 @@ Petey: Push To Talk
 
 Requirements: Ruby 2.0 and PulseAudio
 
+Petey is a script for sending short audio messages over MQTT.
+
+Press the space bar button to record a short audio message,
+which is then sent to all the other people running petey.
+They will then all hear the message as soon as the message has been received.
+You can also send oinks.
+
 
 Installing
 ----------
