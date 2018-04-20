@@ -10,4 +10,4 @@ DEPENDENCIES
   mqtt (~> 0.3.1)
 
 BUNDLED WITH
-   1.11.2
+   1.16.1
